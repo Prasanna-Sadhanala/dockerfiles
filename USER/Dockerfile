@@ -1,6 +1,5 @@
 FROM almalinux:9
 RUN useradd Prasanna
-RUN install nginx -y
-
+RUN dnf install nginx -y
 USER Prasanna
 CMD ["sleep", "100"]
