@@ -1,5 +1,5 @@
 FROM almalinux:9
-ARG Company="N2" \
-    Founder="Prasanna" \
+ARG company="N2" \
+    founder="Prasanna" \
     Vision="Do Your Work It Will Give Better Results"
-RUN echo "Company is:{Company}, Founder is :{Founder}, Vision is :{Vision}"
+RUN echo "Company is:{company}, Founder is :{founder}, Vision is :vVision}"
